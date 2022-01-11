@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/number_card_lil"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_margin="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/card_height_180"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@color/red">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/def_card_text"
+            android:textColor="@color/black"
+            android:id="@+id/number_card_txt"/>
+
+    </LinearLayout>
+</LinearLayout>

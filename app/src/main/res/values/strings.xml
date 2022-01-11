@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">NumberGrid</string>
+    <string name="def_card_text">0</string>
+</resources>
